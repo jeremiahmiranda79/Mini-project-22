@@ -1,0 +1,59 @@
+* {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font: 100;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+  background-color: blue;
+  text-align: center;
+  font-size: large;
+}
+
+header {
+  background-color: cadetblue;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#contact-information {
+  background-color: burlywood;
+  text-align: center;
+  width: 100%;
+}
+
+.button {
+  background-color: #4CAF50; 
+  color: black; 
+  border: 2px solid black;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;  
+  border-radius: 8px;
+}  
+
+.button:hover {
+  background-color: white;
+  color:  #4CAF50;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 8px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
